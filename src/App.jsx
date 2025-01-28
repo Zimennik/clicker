@@ -23,15 +23,9 @@ function App() {
 
   return (
     <div className="container">
-      <h1>Shared Counter</h1>
-      <div className="card">
-        <button onClick={handleClick}>
-          Count is {count}
-        </button>
-        <p>
-          Click the button to increment the counter for all users
-        </p>
-      </div>
+      <button onClick={handleClick}>
+        {count}
+      </button>
     </div>
   )
 }
