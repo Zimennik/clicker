@@ -1,8 +1,11 @@
-# React + Vite
+# Clicker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A real-time collaborative counter application built with React and Firebase. Multiple users can increment the counter simultaneously, and all changes are synchronized in real-time across all connected clients.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Real-time counter synchronization
+- Firebase Realtime Database integration
+- Automatic deployment to GitHub Pages
+- Environment variables management
+- Responsive design
